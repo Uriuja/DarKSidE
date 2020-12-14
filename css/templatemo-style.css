@@ -202,7 +202,8 @@ ul {
   text-decoration: none;
 }
 .tm-nav li a.active {
-  background: url(../img/cerdito.png) no-repeat, url(../img/nav-underline.png) no-repeat;
+  /* background: url(../img/cerdito.png) no-repeat, url(../img/nav-underline.png) no-repeat; */
+  background: url(../img/cerdito.png) no-repeat;
   background-size: 20px, 74px 17px;
   background-position: 0% 30%, center bottom;
 }
