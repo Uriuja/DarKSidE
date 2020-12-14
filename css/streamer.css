@@ -3,3 +3,11 @@
   margin-left: 70px;
   margin-top: 10px;
 }
+
+.streamDes{
+  min-height: 120px;
+  max-height: 120px;
+  overflow-x: hidden;
+  width: 250px;
+  min-width: 250px;
+}
