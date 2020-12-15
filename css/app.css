@@ -11,3 +11,6 @@
 .align{
   text-align: justify;
 }
+.cursorp{
+  cursor: pointer;
+}
