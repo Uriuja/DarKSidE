@@ -14,3 +14,9 @@
 .cursorp{
   cursor: pointer;
 }
+.leftimg{
+  margin-left: 330px;
+}
+.rowtop{
+  margin-top: -120px;
+}
