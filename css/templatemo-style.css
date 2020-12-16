@@ -158,7 +158,8 @@ ul {
 .container { max-width: 960px; }
 .tm-handwriting-font { font-family: 'Damion', cursive; }
 .tm-top-header {
-  background: black;
+  /* background: black; */
+  background:#e590b7;
   color: white;
 }
 .tm-site-logo,
@@ -166,7 +167,8 @@ ul {
   vertical-align: bottom;
 }
 .tm-site-name {
-  color: #c79c60;
+  /* color: #c79c60; */
+  color: white;
   display: inline-block;
   font-size: 32px;
   margin: 0 10px;  
@@ -198,14 +200,16 @@ ul {
 .tm-nav li a:hover,
  .tm-nav li a:focus,
  .tm-nav li a.active {  
-  color: #c79c60;
+  /* color: #c79c60; */
+  color: black;
   text-decoration: none;
 }
 .tm-nav li a.active {
   /* background: url(../img/cerdito.png) no-repeat, url(../img/nav-underline.png) no-repeat; */
   background: url(../img/cerdito.png) no-repeat;
   background-size: 20px, 74px 17px;
-  background-position: 0% 30%, center bottom;
+  /* background-position: 0% 30%, center bottom; */
+  background-position: 0% 40%, center bottom;
 }
 .tm-top-header-inner {
   display: -webkit-box;
@@ -225,13 +229,17 @@ ul {
 
 /* Welcome */
 .tm-welcome-section {
-  background: #282726;
+  /* background: #282726; */
+  background: #e590b7;
   text-align: center;
 }
 .white-text { color: white; }
 .blue-text { color: #0066CC; }
-.gold-text { color: #c79c60; }
-.gray-text { color: #949494; }
+/* .gold-text { color: #c79c60; }#3c312e */
+.gold-text { color: #3c312e; }
+
+/* .gray-text { color: #949494; } */
+.gray-text { color: #3c312e; font-style: oblique; }
 .green-text { color: #30A430; }
 .tm-welcome-header { font-size: 56px; }
 .tm-welcome-header-2 {
@@ -240,7 +248,8 @@ ul {
   text-transform: uppercase;
 }
 .tm-welcome-content {
-  margin: 150px auto 350px;
+  /* margin: 150px auto 350px; */
+  margin: 0px auto 350px;
   max-width: 650px;
 }
 .tm-welcome-description { text-align: justify; }
@@ -296,6 +305,7 @@ ul {
 
 /* Main content */
 .light-gray-bg { background-color: #e4e4e4; }
+/* .light-gray-bg { background-color: #e590b7; } */
 .tm-main-section { padding-top: 170px; }
 .img-thumbnail { padding: 8px; }
 .inline-block { display: inline-block; }

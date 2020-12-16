@@ -1,7 +1,30 @@
 $(document).ready(function() {
   console.log("Cargando DarkSide");
+  // setTimeout(function(){
+  //   $("#audio")[0].play();
+  // },5000)
+  // Swal.fire({
+  //   title: '¿Reproducir  con Música?',
+  //   icon: 'question',
+  //   iconColor: '#e590b7',
+  //   confirmButtonText: 'Si',
+  //   showCancelButton: true,
+  //   cancelButtonText: 'No',
+  //   showLoaderOnConfirm: true,
+  //   allowEscapeKey: false,
+  //   allowOutsideClick: false,
+  //   confirmButtonColor: '',
+  //   cancelButtonColor: '',
+  // }).then((result) => {
+  //   if (result.isConfirmed) {
+  //    console.log('Reproduciendo Gengis kan');
+  //   $("#audio")[0].play();
+  //   }
+  // });
+
   $.get( "https://aoe2.net/api/leaderboard?game=aoe2de&leaderboard_id=3&start=1&count=10000", function( data ) {
     let versus = data.leaderboard;
+    console.log(data.leaderboard);
     paintVersus(versus);
   });
   $.get( "https://aoe2.net/api/leaderboard?game=aoe2de&leaderboard_id=4&start=1&count=10000", function( data ) {
