@@ -29,7 +29,7 @@ $(document).ready(function() {
   });
   $.get( "https://aoe2.net/api/leaderboard?game=aoe2de&leaderboard_id=4&start=1&count=10000", function( data ) {
     let tg = data.leaderboard;
-    console.log(data.leaderboard);
+    // console.log(data.leaderboard);
     paintTG(tg);
   });
 
