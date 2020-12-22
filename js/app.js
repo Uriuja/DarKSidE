@@ -24,7 +24,7 @@ $(document).ready(function() {
 
   $.get( "https://aoe2.net/api/leaderboard?game=aoe2de&leaderboard_id=3&start=1&count=10000", function( data ) {
     let versus = data.leaderboard;
-    // console.log(data.leaderboard);
+     console.log(data.leaderboard);
     paintVersus(versus);
   });
   $.get( "https://aoe2.net/api/leaderboard?game=aoe2de&leaderboard_id=4&start=1&count=10000", function( data ) {
@@ -83,34 +83,40 @@ $(document).ready(function() {
         break;
       case 'ES': //España
       _imagen =  "<img src='img/flags/spain.png' alt='España' class='flag'>"
-        break
+        break;
       case 'GT': //Guatemala
       _imagen =  "<img src='img/flags/098-guatemala.png' alt='Guatemala' class='flag'>"
-        break
+        break;
       case 'VN': //Vietnam
       _imagen =  "<img src='img/flags/vietnam.png' alt='Vietnam' class='flag'>"
-        break
+        break;
       case 'BR': //Brasil
       _imagen =  "<img src='img/flags/brazil.png' alt='Brasil' class='flag'>"
-        break
+        break;
       case 'CO': //Colombia
       _imagen =  "<img src='img/flags/colombia.png' alt='Colombia' class='flag'>"
-        break
+        break;
       case 'FR': //Francia
       _imagen =  "<img src='img/flags/france.png' alt='Francia' class='flag'>"
-        break
+        break;
       case 'AU': //Australia
       _imagen =  "<img src='img/flags/australia.png' alt='Australia' class='flag'>"
-        break
+        break;
         case 'GB': //Gran Bretaña
       _imagen =  "<img src='img/flags/united-kingdom.png' alt='Reino Unido' class='flag'>"
-        break
+        break;
         case 'UY': //Uruguay
       _imagen =  "<img src='img/flags/uruguay.png' alt='Uruguay' class='flag'>"
-        break
+        break;
         case 'PE': //Peru
       _imagen =  "<img src='img/flags/peru.png' alt='Peru' class='flag'>"
-        break
+        break;
+      case 'TR': //Turquia
+      _imagen =  "<img src='img/flags/turkey.png' alt='Peru' class='flag'>"
+        break;
+        case 'JP': //Japon
+        _imagen =  "<img src='img/flags/japan.png' alt='Peru' class='flag'>"
+          break;
       default:
         _imagen =  "<img src='' alt='' class='flag'>"
         break;

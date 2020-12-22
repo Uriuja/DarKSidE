@@ -34,3 +34,17 @@
 .justyfyText{
   text-align: justify;
 }
+.comment{
+  width: 100%!important;
+  margin-left: 0px;
+  min-width: 100%;
+}
+
+#comentariosSection{
+  height: 400px;
+  overflow-x: hidden;
+}
+.dateC{
+  text-align: right;
+  width: 100%;
+}
